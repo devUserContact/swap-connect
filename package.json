@@ -1,0 +1,30 @@
+{
+  "name": "swap-connect",
+  "version": "1.0.0",
+  "description": "connect to defi with metamask",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "comp": "npx tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@ethersproject/address": "^5.7.0",
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/networks": "^5.7.1",
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/solidity": "^5.7.0",
+    "@sushiswap/sdk": "^5.0.0-canary.116",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/sdk-core": "^3.2.2",
+    "@uniswap/v3-sdk": "^3.9.0",
+    "ethers": "^6.3.0",
+    "pancake-swap-sdk": "^2.4.0",
+    "quickswap-sdk": "^3.0.20",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
