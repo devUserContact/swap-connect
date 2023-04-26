@@ -10,6 +10,7 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
+    "@curvefi/api": "^2.31.1",
     "@ethersproject/address": "^5.7.0",
     "@ethersproject/contracts": "^5.7.0",
     "@ethersproject/networks": "^5.7.1",
