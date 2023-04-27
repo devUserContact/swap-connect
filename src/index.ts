@@ -9,6 +9,11 @@ const apiUrl = process.env.QUICKNODE_URL;
 (async () => {
   await curve.init('JsonRpc', { url: apiUrl, privateKey: ''})
   await curve.factory.fetchPools()
-  await curve.cryptoFactory.fetchPools()
-  curve.getPoolList()
+//  await curve.cryptoFactory.fetchPools()
+//  let poolList = curve.getPoolList()
+
+  const aave = curve.getPool('aave')
+  
+  let aaveStats = await aave.stats.parameters();
+  console.log(aaveStats);
 })()

@@ -15,6 +15,9 @@ const apiUrl = process.env.QUICKNODE_URL;
 (() => __awaiter(void 0, void 0, void 0, function* () {
     yield curve.init('JsonRpc', { url: apiUrl, privateKey: '' });
     yield curve.factory.fetchPools();
-    yield curve.cryptoFactory.fetchPools();
-    curve.getPoolList();
+    //  await curve.cryptoFactory.fetchPools()
+    //  let poolList = curve.getPoolList()
+    const aave = curve.getPool('aave');
+    let aaveStats = yield aave.stats.parameters();
+    console.log(aaveStats);
 }))();
