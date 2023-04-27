@@ -2,10 +2,12 @@
   "compilerOptions": {
     "target": "ES2015",
     "module": "ES2015",
-    "sourceMap": false,
-    "outDir": "dist",
+    "moduleResolution": "nodenext",
     "esModuleInterop": true,
-    "moduleResolution": "node16",
+    "sourceMap": false,
+    "allowJs": true,
+    "checkJs": false,
+    "outDir": "dist",
     "baseUrl": "./",
     "paths": {
       "@curvefi/*": [
