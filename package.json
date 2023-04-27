@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "comp": "npx tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js --trance-warnings"
   },
   "dependencies": {
     "@curvefi/api": "^2.31.1",
@@ -21,10 +21,14 @@
     "@uniswap/sdk-core": "^3.2.2",
     "@uniswap/v3-sdk": "^3.9.0",
     "ethers": "^6.3.0",
+    "hardhat": "^2.14.0",
     "quickswap-sdk": "^3.0.20",
     "web3": "^1.9.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.4"
+    "dotenv": "^16.0.3",
+    "ttypescript": "^1.5.15",
+    "typescript": "^5.0.4",
+    "typescript-transform-paths": "^3.4.6"
   }
 }
