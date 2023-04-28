@@ -1,5 +1,6 @@
 import curve from '@curvefi/api'
-import Web3 from 'web3'
+//import Web3 from 'web3'
+
 import * as dotenv from 'dotenv'
 
 dotenv.config()

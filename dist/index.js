@@ -8,6 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import curve from '@curvefi/api';
+//import Web3 from 'web3'
 import * as dotenv from 'dotenv';
 dotenv.config();
 const apiKey = process.env.QUICKNODE_KEY;
