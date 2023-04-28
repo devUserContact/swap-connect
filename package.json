@@ -8,7 +8,7 @@
   "scripts": {
     "comp": "tsc",
     "start": "node dist/index.js",
-    "run": "tsc && node dist/index.js"
+    "car": "tsc && node dist/index.js"
   },
   "dependencies": {
     "@curvefi/api": "^2.31.1",
