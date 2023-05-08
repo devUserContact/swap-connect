@@ -17,6 +17,7 @@
     "@ethersproject/networks": "^5.7.1",
     "@ethersproject/providers": "^5.7.2",
     "@ethersproject/solidity": "^5.7.0",
+    "@metamask/sdk": "^0.2.2",
     "@sushiswap/sdk": "^5.0.0-canary.116",
     "@uniswap/sdk": "^3.0.3",
     "@uniswap/sdk-core": "^3.2.2",
